@@ -1,0 +1,118 @@
+/* General styles for all pages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #F36F25;
+    color: white;
+    padding: 15px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    display: flex; 
+    gap: 20px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+/* Login form container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #F36F25;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0 10px; 
+    color: black; 
+}
+
+.content {
+    margin: 20px;
+    text-align: left; 
+}
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 400px;
+}
+
+input[type="number"],
+select {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button {
+    padding: 10px; 
+    background-color: #F36F25;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #e9651f; 
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+#banner {
+    width: 25%;
+    height: auto; 
+    display: block; 
+    margin: 0; 
+    padding: 0; 
+}
+
+footer {
+    background-color: #F36F25;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
